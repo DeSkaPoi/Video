@@ -26,7 +26,7 @@ namespace Video.Infrastructure
                 tmp.Property(prop => prop.Size).HasDefaultValue("not indicated");
                 tmp.Property(prop => prop.Resolution).HasDefaultValue("not indicated");
                 tmp.Property(prop => prop.Description).HasDefaultValue("not indicated");
-                tmp.Property(prop => prop.LastUpfate).HasDefaultValue(null);
+                tmp.Property(prop => prop.LastUpdate).HasDefaultValue(null);
                 tmp.Property(prop => prop.BelongDocument).HasDefaultValue(false);
             });
         }
